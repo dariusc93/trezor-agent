@@ -122,6 +122,10 @@ def keygrip_nist256(vk):
     ])
 
 
+def keygrip_nist521(vk):
+    """Compute keygrip for NIST521 curve public keys."""
+
+
 def keygrip_ed25519(vk):
     """Compute keygrip for Ed25519 public keys."""
     # pylint: disable=line-too-long
